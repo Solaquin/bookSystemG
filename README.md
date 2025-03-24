@@ -1,6 +1,6 @@
 # Sistema de Gestión de Libros 📚
 
-Este proyecto es un sistema de gestión de libros desarrollado con funciones implementadas de **Java 8** creado el proyecto con **Gradle**. Permite realizar operaciones CRUD sobre libros, realizar búsquedas avanzadas y manejar excepciones personalizadas.
+Este proyecto es un sistema de gestión de libros desarrollado con funciones de **Java 8** utilizando **Gradle**. Permite realizar operaciones CRUD sobre libros, realizar búsquedas avanzadas y manejar excepciones personalizadas.
 
 ---
 
@@ -12,19 +12,27 @@ git clone https://github.com/Solaquin/bookSystemG.git
 cd bookSystemG
 ```
 
-### 2️⃣ Abrir en IntelliJ IDEA
-1. Abrir **IntelliJ IDEA**.
-2. Seleccionar `File > Open` y elegir la carpeta del proyecto.
-3. IntelliJ detectará automáticamente el proyecto Gradle y sincronizará las dependencias.
+### 2️⃣ Abrir el proyecto en un IDE o editor de código
+Este proyecto es compatible con cualquier IDE o editor de código que soporte Java y Gradle. Para abrirlo en **IntelliJ IDEA**, **Eclipse** o **VS Code**, sigue los siguientes pasos:
+
+- **IntelliJ IDEA**:
+  1. Abrir **IntelliJ IDEA**.
+  2. Seleccionar `File > Open` y elegir la carpeta del proyecto.
+  3. IntelliJ detectará automáticamente el proyecto Gradle y sincronizará las dependencias.
+
+- **Eclipse**:
+  1. Abrir **Eclipse** y seleccionar `File > Import`.
+  2. Elegir `Existing Gradle Project` y seleccionar la carpeta del proyecto.
+  3. Eclipse sincronizará las dependencias automáticamente.
+
+- **VS Code**:
+  1. Abrir **VS Code** y seleccionar `File > Open Folder`.
+  2. Asegurarse de tener instalada la extensión de Gradle para administrar dependencias.
+  3. Ejecutar `./gradlew build` en la terminal integrada para compilar el proyecto.
 
 ### 3️⃣ Construir el proyecto
 ```sh
 ./gradlew build
-```
-
-### 4️⃣ Ejecutar pruebas
-```sh
-./gradlew test
 ```
 
 ---
@@ -80,6 +88,3 @@ List<Book> sortedBooks = bookService.getAllBooksSortedByPublicationDate();
 
 ### 📌 Notas finales
 Este proyecto es un ejemplo de una arquitectura básica en capas y puede ser extendido para incluir almacenamiento en bases de datos, autenticación de usuarios y más funcionalidades avanzadas.
-
-📧 Para consultas o contribuciones, visita [el repositorio en GitHub](https://github.com/Solaquin/bookSystemG).
-
