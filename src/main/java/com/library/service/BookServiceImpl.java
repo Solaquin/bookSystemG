@@ -9,6 +9,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+/**
+ * Implementación del servicio de libros que maneja la lógica de negocio.
+ */
 public class BookServiceImpl implements IBookService
 {
     private final BookDAOImpl bookDAO = new BookDAOImpl();

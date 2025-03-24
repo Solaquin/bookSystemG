@@ -4,6 +4,9 @@ import com.library.model.Book;
 
 import java.util.*;
 
+/**
+ * Implementación de IBookDAO que utiliza un HashMap como almacenamiento en memoria.
+ */
 public class BookDAOImpl implements IBookDAO
 {
     private Map<Long, Book> bookStorage = new HashMap<>();
