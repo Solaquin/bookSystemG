@@ -1,6 +1,6 @@
 # Sistema de Gestión de Libros 📚
 
-Este proyecto es un sistema de gestión de libros desarrollado en **Java 8** utilizando **Gradle** e **IntelliJ IDEA**. Permite realizar operaciones CRUD sobre libros, realizar búsquedas avanzadas y manejar excepciones personalizadas.
+Este proyecto es un sistema de gestión de libros desarrollado con funciones implementadas de **Java 8** creado el proyecto con **Gradle**. Permite realizar operaciones CRUD sobre libros, realizar búsquedas avanzadas y manejar excepciones personalizadas.
 
 ---
 
